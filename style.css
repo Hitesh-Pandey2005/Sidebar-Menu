@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+.main_box{
+    background-image:url("photo.jpg");
+    height:100vh;
+    background-size: cover;
+}
+
+#check{
+    display: none;
+}
+.btn_one{
+   
+    position: absolute;
+}
+.btn_two{
+     position: absolute;
+    left: 290px;
+}
+.sidebar_menu{
+    position: fixed;
+    /* left: -0px; */
+    height: 100%;
+    width: 20%;
+    background-color: rgb(255, 255, 255,.2);
+    box-shadow: 0 0 6px rgb(255, 255, 255,.5);
+   
+}
+
+.sidebar_menu .logo{
+    position:relative;
+    width: 100%;
+    line-height: 50px;
+     box-shadow: 0 0 4px rgb(255, 255, 255,.5);
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: 500;
+     margin-bottom: 2px;
+     
+    
+   
+}
+.sidebar_menu .logo a{
+    position: relative;
+    color: aliceblue;
+    position: absolute;
+    left: 80px;
+    margin-bottom:0.5%;
+    text-decoration: none;
+    
+
+}
+.menu{
+ 
+    top: 20px;
+    line-height: 50px;
+     /* box-shadow: 0 0 6px rgb(255, 255, 255,.5); */
+     /* margin-left: 12%; */
+     line-height: 1.5cm;
+   
+}
+.menu i{
+    color: white;
+}
+.menu li{
+    position: relative;
+   list-style: none;
+    /* left: 12px; */
+    top: 1cm;
+    
+
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    
+}
+.social_media{
+    text-align: center;
+    margin-top: 80%;
+    /* padding: 10px; */
+    /* font-size: 20px; */
+}
+.menu li:hover{
+    
+ box-shadow: 0 0 6px rgb(255, 255, 255,.5);   
+}
+.sidebar_menu .social_media{
+    color: aliceblue;
+}
+
+#check:checked ~ .sidebar_menu{
+    left: -400px;;
+}
+#check .btn_one:hover{
+    opacity: 1;
+    font-size: 20px;
+}
+
+
